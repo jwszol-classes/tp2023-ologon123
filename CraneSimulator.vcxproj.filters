@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{fe80131f-149d-4359-82a1-0737085fefa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crane">
+      <UniqueIdentifier>{63d43d2f-5a3c-4124-ba0a-15b0ad21568d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{ca8e3ecb-24af-4f3b-b97d-23a96bebcef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crane\Hook">
+      <UniqueIdentifier>{26d031ae-9996-4854-a0f3-aec35b842492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulator">
+      <UniqueIdentifier>{31365bc2-f6d0-4ded-aec5-53a3b6fc61ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Block.cpp">
+      <Filter>Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleBlock.cpp">
+      <Filter>Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareBlock.cpp">
+      <Filter>Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleBlock.cpp">
+      <Filter>Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Crane.cpp">
+      <Filter>Crane</Filter>
+    </ClCompile>
+    <ClCompile Include="AppEngine.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonsManager.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Messenger.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="CraneHook.cpp">
+      <Filter>Crane\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="HookController.cpp">
+      <Filter>Crane\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp" />
+    <ClCompile Include="SimulatorService.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CircleBlock.h">
+      <Filter>Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareBlock.h">
+      <Filter>Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleBlock.h">
+      <Filter>Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Crane.h">
+      <Filter>Crane</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemsTypeChecker.h">
+      <Filter>Crane</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemsWeightChecker.h">
+      <Filter>Crane</Filter>
+    </ClInclude>
+    <ClInclude Include="AppEngine.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonsManager.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Messenger.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="CraneHook.h">
+      <Filter>Crane\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="HookController.h">
+      <Filter>Crane\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h" />
+    <ClInclude Include="SimulatorService.h" />
+  </ItemGroup>
+</Project>
